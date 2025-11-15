@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Website</title>
+  <link rel="shortcut icon" href="https://i.pinimg.com/736x/2c/43/49/2c434920ee48432349ad2994642ae6df.jpg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body class="bg-gradient-to-b from-[#0d053d] via-[#15084f] to-[#2a0d75]">
+
+
+
+
+
+
+<nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="./2c434920ee48432349ad2994642ae6df-removebg-preview.png" class="h-7" alt="Flowbite Logo" />
+      <span class="self-center text-xl text-heading font-semibold whitespace-nowrap text-white">Neon</span>
+  </a>
+  <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+
+ 
+
+<button class="px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white font-semibold shadow-[0_0_15px_rgba(168,85,247,0.8)] over:shadow-[0_0_25px_rgba(168,85,247,1)] transition duration-300">Get started
+</button>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+     
+      <li>
+        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">Home</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">About</a>
+      </li>
+      <li>
+        <a href="#contactForm" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">Contact</a>
+      </li>
+       <li>
+        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">Services</a>
+      </li>
+       <li>
+        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">Docs</a>
+      </li>
+       <li>
+        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent text-white">portfolio</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<section id="hero" class="w-full h-screen bg-cover bg-center"  style="background-image: url('./Untitled-37.png');">
+
+
+
+
+  <div class="h-full w-full bg-black/20 flex items-center">
+    <div class="text-white max-w-xl px-8">
+      <h1 class="text-6xl font-bold leading-tight">STUDY PLAY<br>STUDIO</h1>
+      <p class="mt-4 text-lg text-white">
+        Unlock your creativity with a digital space built for learners, creators, and dreamers. 
+Work smarter, design better, and grow your skills with clean tools and modern visuals.
+
+      </p>
+
+      <button class="mt-6 px-6 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-pink-500 to-purple-600 shadow-lg shadow-pink-500/50 hover:opacity-90">
+       Explore Now
+
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+
+      <!-- CARD 1 -->
+      <div class="w-full md:w-1/2 lg:w-1/3 mb-10 px-4">
+        <h2 class="title-font text-2xl font-medium text-white mt-6 mb-3">Boost Your YouTube Growth
+</h2>
+        <p class="leading-relaxed text-base mb-3">Create eye-catching videos, thumbnails, and edits that attract viewers and grow your channel faster than ever.
+.</p>
+       <button class="px-6 py-4 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white font-semibold shadow-[0_0_15px_rgba(168,85,247,0.8)] over:shadow-[0_0_25px_rgba(168,85,247,1)] transition duration-300">Get started
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="w-full md:w-1/2 lg:w-1/3 mb-10 px-4">
+        <h2 class="title-font text-2xl font-medium text-white mt-6 mb-3">Creative Design Tools
+</h2>
+        <p class="leading-relaxed text-base mb-3">Access premium design tools crafted to help you build aesthetic, modern, and professional-looking projects with ease.
+
+</p>
+      <button class="px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white font-semibold shadow-[0_0_15px_rgba(168,85,247,0.8)] over:shadow-[0_0_25px_rgba(168,85,247,1)] transition duration-300">Try Now
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="w-full md:w-1/2 lg:w-1/3 mb-10 px-4">
+        <h2 class="title-font text-2xl font-medium text-white mt-6 mb-3">Learn. Build. Grow.
+</h2>
+        <p class="leading-relaxed text-base mb-3">From tutorials to resources—master skills step-by-step and take control of your digital journey.
+
+</p>
+       <button class="px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white font-semibold shadow-[0_0_15px_rgba(168,85,247,0.8)] over:shadow-[0_0_25px_rgba(168,85,247,1)] transition duration-300">Start Learning
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col">
+       </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content"  class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/64/a8/08/64a8083d07b8c98923311cbc88fecafe.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Creative Editing Assets
+</h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">Premium visual resources to enhance your videos, designs, and social media content.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/d7/59/44/d759447b869765bd98d827565055407e.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Modern Digital Art
+</h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">Aesthetic artwork and visuals curated to spark new ideas and inspire creativity.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/42/64/a4/4264a4ba598c17ef23685260a13bd849.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Premium Visual Designs
+</h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">High-quality templates and graphics made to elevate your projects instantly.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+       <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/8b/72/58/8b7258e4829728ce6a0671fafd51c607.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Aesthetic UI Elements
+</h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">Beautiful gradients, shapes, and layouts for clean, futuristic website designs.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+       <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/d5/fd/72/d5fd72955ad33063cd1d9cdd31284913.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Neon & Futuristic Themes
+</h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">Eye-catching neon palettes and effects that give your content a modern glow.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+       <div class="p-4 md:w-1/3 sm:mb-0 mb-6 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] 
+           hover:-translate-y-1 cursor-pointer">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://i.pinimg.com/originals/aa/b5/b5/aab5b58f873a65ffa2cd97b0cd243816.gif">
+        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Creative Studio Resources
+/h2>
+        <p class="text-base leading-relaxed mt-2 text-red-300">Everything you need—tools, ideas, and visuals—to level up your creative workflow.
+</p>
+        <a class="text-blue-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="text-gray-600 body-font bg-white">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.pinimg.com/736x/6f/da/32/6fda32c9bfbdd0aa37af3576ad22b334.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.pinimg.com/1200x/20/7e/df/207edf91d36790a9be5e869702528517.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.pinimg.com/1200x/2e/51/92/2e5192b2437a4aa2e2e405a4a5fd2b36.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="text-gray-600 body-font relative" >
+  <div class="absolute inset-0 bg-gray-300 bg-gradient-to-b from-[#0d053d] via-[#15084f] to-[#2a0d75]">
+    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+  </div>
+  <div class="container px-5 py-24 mx-auto flex">
+    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <h2 class="text-purple-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+      <form id="contactForm">
+      <p class="leading-relaxed mb-5 text-gray-600">Drop your Feedback regarding website</p>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-gradient-to-r from-pink-500 to-purple-600 shadow-lg shadow-pink-500/50 ">send</button>
+      </form>
+      <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+    </div>
+  </div>
+</section>
+<footer class="bg-black text-gray-300 body-font">
+  <div class="container px-5 py-20 mx-auto">
+    <div class="flex flex-wrap md:text-left text-center -mx-4">
+
+      <!-- Column 1 -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+        <h2 class="text-purple-400 font-semibold text-lg tracking-wide mb-4 uppercase">Explore</h2>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">About Us</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Services</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+        <h2 class="text-purple-400 font-semibold text-lg tracking-wide mb-4 uppercase">Quick Links</h2>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-400 transition">FAQ</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Support</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+        <h2 class="text-purple-400 font-semibold text-lg tracking-wide mb-4 uppercase">Our Services</h2>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-400 transition">Web Design</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Development</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">Branding</a></li>
+          <li><a href="#" class="hover:text-yellow-400 transition">E-Commerce</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+        <h2 class="text-purple-400 font-semibold text-lg tracking-wide mb-4 uppercase">Contact</h2>
+        <ul class="space-y-2">
+          <li><span class="hover:text-yellow-400 transition">📍 Karachi, Pakistan</span></li>
+          <li><span class="hover:text-yellow-400 transition">📞 +92 335 1234567</span></li>
+          <li><span class="hover:text-yellow-400 transition">✉ contactmariahussain021@gmail.com</span></li>
+          <li><span class="hover:text-yellow-400 transition">🕒 Mon–Fri 9AM–6PM</span></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="lg:w-2/6 md:w-1/2 w-full px-4 mb-10">
+        <h2 class="text-purple-400 font-semibold text-lg tracking-wide mb-4 uppercase">Stay Updated</h2>
+        <p class="mb-4 text-gray-400">Subscribe to get the latest updates, offers, and news.</p>
+        <div class="flex">
+          <input type="email"
+            class="w-full bg-gray-800 rounded-l-lg border border-gray-700 text-gray-300 px-3 py-2 focus:ring-2 focus:ring-yellow-400 outline-none"
+            placeholder="Enter your email">
+          <button class="bg-purple-400 text-black px-5 py-2 rounded-r-lg font-semibold hover:bg-yellow-300 transition">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-700">
+    <div class="container px-5 py-5 mx-auto flex flex-col sm:flex-row items-center">
+
+      <p class="text-gray-400 text-sm text-center sm:text-left">
+        © 2025 my neon website by maria❤❤
+      </p>
+
+      <!-- Social Icons -->
+      <span class="inline-flex sm:ml-auto mt-4 sm:mt-0 justify-center">
+        <a class="text-gray-400 hover:text-yellow-400 transition mx-2">
+          <i class="fab fa-facebook-f text-xl"></i>
+        </a>
+        <a class="text-gray-400 hover:text-yellow-400 transition mx-2">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a class="text-gray-400 hover:text-yellow-400 transition mx-2">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+        <a class="text-gray-400 hover:text-yellow-400 transition mx-2">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
