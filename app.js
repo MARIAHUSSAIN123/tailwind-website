@@ -25,4 +25,13 @@ const form = document.getElementById("contactForm");
     });
 
     form.reset();
+
+  })
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleBtn = document.querySelector("[data-collapse-toggle='navbar-cta']");
+  const menu = document.getElementById("navbar-cta");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
   });
+});
