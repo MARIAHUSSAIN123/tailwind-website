@@ -27,11 +27,36 @@ const form = document.getElementById("contactForm");
     form.reset();
 
   })
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleBtn = document.querySelector("[data-collapse-toggle='navbar-cta']");
-  const menu = document.getElementById("navbar-cta");
 
+  const toggleBtn = document.getElementById("toggleBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  // Toggle Menu Open/Close
   toggleBtn.addEventListener("click", () => {
-    menu.classList.toggle("hidden");
+    if (mobileMenu.classList.contains("open")) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
   });
-});
+
+  // Open Menu
+  function openMenu() {
+    mobileMenu.style.right = "0px";
+    mobileMenu.classList.add("open");
+  }
+
+  // Close Menu
+  function closeMenu() {
+    mobileMenu.style.right = "-300px";
+    mobileMenu.classList.remove("open");
+  }
+
+  // Click outside to close
+  document.addEventListener("click", (e) => {
+    if (!mobileMenu.contains(e.target) && !toggleBtn.contains(e.target)) {
+      closeMenu();
+    }
+  });
+
+
